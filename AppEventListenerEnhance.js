@@ -6,7 +6,7 @@
  * Copyright (c) 2016 react-native-component <moonsunfall@aliyun.com>
  */
 
-export default AppEventListenerEnhance = (ComposedComponent) => {
+export default (ComposedComponent) => {
 
     let _key = 'AppEventListenerEnhance_listeners'
 
